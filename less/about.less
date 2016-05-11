@@ -1,0 +1,57 @@
+.ba-business {
+  background-color: #fff;
+  padding: 50px 0;
+  &__img {
+    margin-bottom: 50px;
+  }
+}
+
+.ba-services {
+  padding-bottom: 50px;
+  color: #737373;
+  font-size: 18px;
+  font-weight: 600;
+
+}
+
+.ba-service-items {
+  background-color: #efefef;
+  margin: 50px 0;
+  &__item {
+    &:hover {
+      background-color: #dadada;
+    }
+  }
+  &__link {
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    text-decoration: none;
+    color: inherit;
+    height: 200px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  &__icon {
+    height: 60px;
+    width: 50px;
+    fill: #737373;
+  }
+  &__title {
+    font-family: 'novecentowide', sans-serif;
+  }
+  .ba-grid-nopad > [class*="ba-width-"] {
+    float: left;
+  }
+}
+  .ba-services-list {
+    margin-top: 30px;
+    &__item {
+      padding-left: 30px;
+      background: url("../img/bullet.png") no-repeat 0 50%;
+    }
+  }
